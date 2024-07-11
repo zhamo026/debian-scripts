@@ -32,3 +32,8 @@ Ctrl+O Crtl+X
 
 service ssh restart
 
+sudo apt remove firefox-esr
+
+discovery
+#remove libreoffice debianand reinstall the flathub verison
+librewolf flatseal libreoffice 
