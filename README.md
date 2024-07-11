@@ -83,3 +83,19 @@ sudo ./auto-cpufreq-installer
 sudo systemctl status auto-cpufreq
 
 install
+
+
+minecraft
+01. Log into the Debian device
+   02. Run the following commands in a terminal window:
+         update software repositories
+         sudo apt update
+         install java and flatpack
+         sudo apt install openjdk-11-jdk flatpak gnome-software-plugin-flatpak
+         add flatpack repo
+         sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat...
+         install minecraft
+         sudo flatpak install flathub com.mojang.Minecraft
+         run minecraft
+         flatpak run com.mojang.Minecraft
+   03. Game!
